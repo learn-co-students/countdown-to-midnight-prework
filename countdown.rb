@@ -16,3 +16,6 @@ def countdown_with_sleep(seconds)
   end
   "HAPPY NEW YEAR!"
 end
+
+#find a way to use string concatenation to append the s when the
+# number of seconds is plural
