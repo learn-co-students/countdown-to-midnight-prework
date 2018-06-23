@@ -2,7 +2,7 @@
 
 def countdown(int)
   index = 0
-  while int > inde
+  while int > index
   puts "#{int} SECOND(S)!"
   int-=1
 end
