@@ -1,6 +1,6 @@
 def countdown(num)
   while num > 1 do
-    puts `#{num} SECONDS`
+    puts "#{num} SECONDS"
     num -= 1
   end
   puts '1 SECOND'
@@ -12,7 +12,7 @@ countdown(10)
 
 def countdown_with_sleep(num)
   while num > 1 do
-    puts `#{num} SECONDS`
+    puts "#{num} SECONDS"
     sleep(1)
     num -= 1
   end
