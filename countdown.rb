@@ -9,5 +9,8 @@ def countdown(number)
 end 
 
 def countdown_with_sleep
-  
+  5.downto(1) do |n|
+  puts n
+  sleep 1 # second
+ end
 end
