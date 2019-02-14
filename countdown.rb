@@ -8,9 +8,9 @@ def countdown(number)
  "HAPPY NEW YEAR!"
 end 
 
-def countdown_with_sleep
+def countdown_with_sleep(seconds)
   5.downto(1) do |n|
   puts n
-  sleep(1) # second
+  sleep(seconds) # second
  end
 end
